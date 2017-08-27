@@ -20,5 +20,8 @@ public class DisplayMessageActivity extends AppCompatActivity {
         //Capture the layout's TextView and set the string as its text
         TextView textView = (TextView) findViewById(R.id.textView);
         textView.setText(message);
+
+        TextView textView2 = (TextView) findViewById(R.id.textView2);
+        textView2.setText(message.toUpperCase());
     }
 }
